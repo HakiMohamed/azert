@@ -1,0 +1,35 @@
+@import url("https://fonts.cdnfonts.com/css/approach-mono-trial");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-family {
+  font-family: "Approach Mono TRIAL";
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .size-container {
+    max-height: unset;
+  }
+}
+
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  max-width: 1920px !important;
+  overflow-x: hidden;
+}
